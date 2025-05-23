@@ -14,6 +14,23 @@ VTTファイル → gijiroku-san → Markdown → Word MCP → Word文書
   音声認識      議事録生成    構造化    プロ仕様文書
 ```
 
+## 🏢 利用可能なMCPサーバー
+
+### 🟢 確実に動作（認証不要）
+- **DeepWiki MCP**: GitHubリポジトリ分析・技術調査
+
+### 🔵 Cloudflare公式（高機能）
+- **Cloudflare Docs**: 技術ドキュメント検索
+- **Cloudflare Analytics**: Webアナリティクス
+- **Cloudflare Bindings**: Workers・データベース操作
+
+### 🏢 Microsoft公式（要セットアップ）
+- **Playwright MCP**: ブラウザ自動化
+- **Azure MCP**: Azureリソース管理
+- **Teams MCP**: Teams統合
+- **Word MCP**: Word文書操作
+- **MSSQL MCP**: SQL Server操作
+
 ## 📦 主要ツール
 
 ### 1. 🔗 **major_mcp_connect.py**
@@ -88,22 +105,7 @@ python markdown_to_word_mcp.py meeting_minutes.md
 python major_mcp_connect.py developer gijiroku_enhancement "Teams連携"
 ```
 
-## 🏢 利用可能なMCPサーバー
 
-### 🟢 確実に動作（認証不要）
-- **DeepWiki MCP**: GitHubリポジトリ分析・技術調査
-
-### 🔵 Cloudflare公式（高機能）
-- **Cloudflare Docs**: 技術ドキュメント検索
-- **Cloudflare Analytics**: Webアナリティクス
-- **Cloudflare Bindings**: Workers・データベース操作
-
-### 🏢 Microsoft公式（要セットアップ）
-- **Playwright MCP**: ブラウザ自動化
-- **Azure MCP**: Azureリソース管理
-- **Teams MCP**: Teams統合
-- **Word MCP**: Word文書操作
-- **MSSQL MCP**: SQL Server操作
 
 ## 📖 詳細ガイド
 
